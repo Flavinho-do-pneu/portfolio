@@ -24,18 +24,19 @@ ul li a{
 
 ul li a:hover{
     text-decoration: none;
-    color: #333;
+    color: #888;
     
 }
 
 header{
-    background-color: #666;
+    background-color: #333;
     width: 100%;
     height: 80px;
 }
 
 #container{
     margin: 0;
+    background-color:white;
 }
 
 #gian{
@@ -72,7 +73,7 @@ header{
 }
 
 .bloco01{
-    background-color: #ccc;
+    background-color: #333;
 
 }
 
@@ -90,6 +91,7 @@ header{
     border-radius: 10%;
     box-shadow: 0 0 0 1px black;
     margin-right: 2px;
+    background-color: #333;
 }
 
 #portfolio {
@@ -98,7 +100,7 @@ header{
 
 footer{
     margin-top: 110px;
-    background-color: #333;
+    background-color: white;
 }
 
 #icones i{
@@ -110,3 +112,4 @@ footer{
     margin-top: -20px;
     height: 600px;
 }
+
