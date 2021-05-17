@@ -49,15 +49,18 @@ header{
 }
 
 #foto-perfil h1{
-    color: rgb(14, 156, 14);
+    color: white;
+    text-transform: uppercase;
 }
 
 
 #habilidades ul li{
     display: inline-block;
     margin-right: 5px;
-    color: rgb(14, 156, 14);
+    color: white;
     height: 120px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .row{
