@@ -119,4 +119,13 @@ footer{
     height: 600px;
 }
 
+.card-body{
+    background-color: #333;
+    color: white;
+    width: 300px;
+    height: 150px;
+}
 
+.card-body a:hover{
+    text-decoration: none;
+}
