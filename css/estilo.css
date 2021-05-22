@@ -3,8 +3,18 @@ nav ul li{
     margin-right: 30px;
 }
 
+
+#habilidades ul li{
+    display: inline-block;
+    margin-right: 5px;
+    color: white;
+    height: 120px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Architects Daughter', cursive;
 }
 
 
@@ -37,6 +47,7 @@ header{
 #container{
     margin: 0;
     background-color:white;
+    font-family: 'Architects Daughter', cursive;
 }
 
 #gian{
@@ -56,14 +67,6 @@ header{
 }
 
 
-#habilidades ul li{
-    display: inline-block;
-    margin-right: 5px;
-    color: white;
-    height: 120px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
 
 .row{
     margin-top: 400px;
@@ -94,10 +97,10 @@ header{
 
 #portfolio img{
     border-radius: 5%;
-    box-shadow: 0 0 0 1px black;
     margin-right: 2px;
     background-color: #333;
     margin-top: 5px;
+    box-shadow: 0px 0px 2px #222;
 }
 
 #portfolio {
@@ -111,11 +114,16 @@ footer{
 
 #icones i{
     margin-right: 50px;
+    color: #333 
+}
+
+#icones i:hover{
+    color: #444;
 }
 
 #servicos{
     background-color: #333;
-    margin-top: -20px;
+    /*margin-top: -20px;*/
     height: 600px;
 }
 
@@ -123,7 +131,22 @@ footer{
     background-color: #333;
     color: white;
     width: 300px;
-    height: 150px;
+    height: 200px;
+}
+
+.buttom2 a{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.buttom2{
+    width: 100%;
+}
+
+.buttom2 a:hover{
+    color: #888;
 }
 
 .card-body a:hover{
