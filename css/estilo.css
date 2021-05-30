@@ -34,7 +34,7 @@ body{
 .conteudo ul{
     text-decoration: none;
     list-style: none;
-    margin-left: 800px;
+    margin-left: 920px;
     margin-top: 5px;
 
 }
@@ -90,5 +90,9 @@ footer i:hover{
 
 .conteudo{
     font-family: 'Noto Sans', sans-serif;
+}
+
+.col-md{
+    margin-top: 20px;
 }
 
