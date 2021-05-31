@@ -32,3 +32,12 @@ body{
     height: 700px;
     background-color: #333;
 }
+
+
+@media (max-width: 1230px){
+    ul{
+        margin-left: 600px;
+
+    }
+    
+}

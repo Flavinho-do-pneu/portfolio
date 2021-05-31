@@ -96,3 +96,17 @@ footer i:hover{
     margin-top: 20px;
 }
 
+
+@media (max-width: 1920px){
+    #banner video{
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 1240px){
+    .conteudo ul{
+        margin-left: 650px;
+    }
+}
+
